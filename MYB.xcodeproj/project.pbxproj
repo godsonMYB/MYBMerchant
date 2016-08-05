@@ -202,8 +202,9 @@
 		439CBB091D543C000009AF6F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MYB;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = wudong.com;
+				ORGANIZATIONNAME = East_wu;
 				TargetAttributes = {
 					439CBB101D543C000009AF6F = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -414,8 +415,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MYB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wudong.MYB;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myb.myb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -425,8 +427,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MYB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wudong.MYB;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myb.myb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
